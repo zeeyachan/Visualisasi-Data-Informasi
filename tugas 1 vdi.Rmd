@@ -1,0 +1,52 @@
+---
+title: "TUGAS VDI"
+author: "Nabila Zakiyah Zahra_122450139_RA"
+date: "2024-08-28"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+Making Data Visualization more efficient and effective: a survey
+---
+
+**1. Pengenalan**
+
+Visualisasi data dikenal dengan transformasi data abstrak menjadi bentuk fisik dengan insight yang terkandung didalamnya. Visualisasi data merupakan cara yang ampuh untuk menjelaskan mengenai data yang dimiliki, terutama pada masyarakat awam. Perkembangan visualisasi data tidak perlu diragukan dikarenakan banyak langkah besar yang telah dihasilkan pada berbagai bidang dan oleh banyak komunitas.
+
+Berikut alur visualisasi data
+1. Melakukan import data yang dibutuhkan dari database yang sesuai
+2. Melakukan data preparation dengan melakukan normalisasi data, interpolasi, dan lain-lain
+3. Melakukan manipulasi data dengan memilih data mana saja yang cocok dan bisa digabungkan dengan operasi-operasi data
+4. Melakukan pemetaan dengan pemetaan data primitif beserta atributnya
+5. Melakukan rendering dengan mengubah data geometri menjadi representasi visual
+
+Lalu, berdasarkan alur diatas ada tiga arah yang mempengaruhi efisiensi, efektivitas, dan relevan bagi peneliti basis data. Spesifikasi visualisasi, pendekatan yang efisian, dan rekomendasi visualisasi. 
+
+**2. Spesifikasi visualisasi**
+
+Terdapat beberapa bagian yaitu data, tanda, dan pemetaan. Mengkategorikan bahasa visualisasi data biasanya berdasarkan seberapa ekspresif bahasa visualisasi tersebut. Semakin rendah level suatu bahasa maka akan semakin ekspresif bahasa tersebut namun semakin tinggi level bahasa, semakin mudah juga untuk digunakan. 
+
+Operasi visual berbasis GUI, dibandingkan dengan penggunaan bahasa, penggunaan tools otomatis lebih banyak diminati dan digunakan. Namun permasalahan umum dalam menciptakan proses visualisasi menjadi lebih efisien dan cermat adalah sama yaitu pada seberapa interaktifnya visualisasi data yang dihasilkan.
+
+Spesifikasi yang kurang spesifik pada visualisasi data tidak memiliki arti ketika tidak dapat memberikan wawasan pengetahuan tentang data yang digunakan. Sebenarnya banyak pengguna-pun tidak begitu memahami semua aspek data yang ada, beberapa alasannya karena data yang terlalu besar dan atau data yang sering diperbarui. Karena itu dibutuhkan bantuan spesifikasi dengan diberikan beberapa petunjuk dan referensi yang sesuai bagi pengguna. 
+
+**3. Pendekatan yang efisien untuk visualisasi data**
+
+Dengan mem-visualisasikan data yang tepat, bersamaan ketika memanipulasi, memetakkan, dan menggunakan alat tertentu untuk melakukan visualisasi. 
+
+Lalu memperkirakan visualisasi data, terutama pada data yang tumbuh secara eksponensial akan sangat sulit untuk memberikan hasil pemrosesan interaktif yang cepat. Dalam mempercepat pemrosesan data digunakan *approximate query processing (AQP)* yang memberikan hasil visualisasi perkiraan. 
+
+Melakukan visualisasi data progresif yang menyajikan data yang divisualisasikan secara progresif dengan agregasi hierarki. Membangun struktur herarki lalu digunakan untuk mendukung eksplorasi visualisasi progresif pengguna. Pengguna dapat menjelajahi data dalam berbagai tingkatan dan mengubah resolusi visualisasi yang sedang dieksplorasi dengan memperbesar atau memperkecil tampilan, lalu sistem akan mengubah ukuran bin agregasi yang mendasarinya.
+
+**4. Rekomendasi visualisasi**
+
+Proses visualisasi data bersifat iteratif dan titik masalah utama adalah bahwa mereka harus terlibat dalam setiap langkah untuk membuat modifikasi. Beberapa rekomendasi yang diberikan untuk mempermudah pengguna rekomendasi berbasis spesifikasi, rekomendasi berbasis perilaku, rekomendasi yang dipersonalisasi, lalu memberikan kesimpulan berupa rekomendasi membutuhkan spesifikasi tertentu sehingga masih perlu mengumpulkan banyak data pelatihan agar menghasilkan rekomendasi yang sesuai kedepannya. 
+
+**5. Arah penelitian lainnya**
+
+Beberapa topik yang relevan dengan manajemen data, pentingnya persiapan data sebelum memvisualisasikan data. Berupa data yang harus dibersihkan, karena data yang kotor berdampak pada visualisasi data. Tolak ukur visualisasi data penting untuk dikembangkan sebagai bentuk perkembangan dari kinerja dan rekomendasi. Visualisasi data pada aplikasi terkait basis data memliki peran penting berdasarkan pesatnya perkembangan teknik visualisasi data.
+
+**6. Kesimpulan**
+
+Berkembangnya visualisasi data yang didorong oleh sebagian besar domain dan aplikasi menghasilkan banyak hasil penelitian baru dan sistem baru yg dikembangkan. Setelah men-survey karya visualisasi data terkini bagaimana spesifikasi visualisasi, metode yang efisien untuk visualisasi, dan rekomendasi visualisasi. Seperti yang disebutkan sebelumnya, sebagian besar sistem visualisasi data komersial memiliki kemudahan penggunaan yang baik dalam hal spesifikasi visualisasi data.
